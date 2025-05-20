@@ -10,8 +10,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## 🎬 Demo
 ![Screenshot 2025-05-19 211258](https://github.com/user-attachments/assets/511a0b01-53b2-4f96-bcc2-67653ab6570c)
@@ -36,7 +35,12 @@ Home icon will bring you back home to the landing page, where you can choose ano
 ## ✨ Features
 - Feature 1 – Interactive timer with multiple buttons / play / pause / home
 - Feature 2 –  Responsive layout
-- Feature 3 – Countdown timer 
- 
+- Feature 3 – Countdown timer
+  
+##  Technologies-used
+Javascript
+HTML
+CSS
+
 
 
