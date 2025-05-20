@@ -38,7 +38,7 @@ Home icon will bring you back home to the landing page, where you can choose ano
 
   
   
-## 💻 Technologies-used
+# 💻 Technologies-used
 Javascript
 HTML
 CSS
