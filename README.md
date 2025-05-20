@@ -7,7 +7,6 @@
 
 - [Demo](#demo)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 
@@ -36,11 +35,17 @@ Home icon will bring you back home to the landing page, where you can choose ano
 - Feature 1 – Interactive timer with multiple buttons / play / pause / home
 - Feature 2 –  Responsive layout
 - Feature 3 – Countdown timer
+
   
-##  Technologies-used
+  
+## 💻 Technologies-used
 Javascript
 HTML
 CSS
 
+
+## 📝 Usage
+
+Perfect app to unwind and  relax, while listening to a nature best sounds such as a crackling fire, sounds of ocean waves or rain drops. 
 
 
