@@ -3,7 +3,7 @@
  A responsive web app that helps users unwind and relax.
  
 
-## 📖 Table of Contents
+# 📖 Table of Contents
 
 - [Demo](#demo)
 - [Features](#features)
@@ -11,7 +11,7 @@
 - [Technologies Used](#technologies-used)
 
 
-## 🎬 Demo
+# 🎬 Demo
 ![Screenshot 2025-05-19 211258](https://github.com/user-attachments/assets/511a0b01-53b2-4f96-bcc2-67653ab6570c)
 On a landing page you have options to choose type of meditation you would prefer.
 There are 3 options:
@@ -31,7 +31,7 @@ Home icon will bring you back home to the landing page, where you can choose ano
 
 
 
-## ✨ Features
+# ✨ Features
 - Feature 1 – Interactive timer with multiple buttons / play / pause / home
 - Feature 2 –  Responsive layout
 - Feature 3 – Countdown timer
