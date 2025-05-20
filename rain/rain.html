@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rain</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="rain.css" />
+    <link rel="icon" href="data:,">
+  </head>
+  <body>
+    <div id="container">
+      <div id="container-countdown">
+        <p id="countdown">Relax</p>
+      </div>
+      <div id="pause">
+        <i class="i fa-solid fa-play" id="play"></i>
+        <i class="fa-solid fa-pause" id="stop"></i>
+      </div>
+      <div class="home">
+        <a href="/index.html">
+          <i class="fa-solid fa-house" id="home"> </i>
+        </a>
+      </div>
+    </div>
+
+    <audio id="player" autoplay loop>
+      <source src="rain-by-prabajithk-119000.mp3" type="audio/mp3" />
+    </audio>
+
+    <video
+      autoplay="autoplay"
+      loop="loop"
+      muted
+      defaultmuted
+      playsinline
+      id="myVideo"
+    >
+      <source src="151744-801455851_small.mp4" type="video/mp4" />
+    </video>
+
+    <script src="rain.js"></script>
+  </body>
+</html>

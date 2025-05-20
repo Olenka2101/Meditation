@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <div id="onOff">
+        <button id="playMusic">
+            <i class=" fa-solid fa-play" id="play"></i>
+        </button>
+        <button id="stopMusic">
+            <i class=" fa-solid fa-pause" id="pause"></i>
+         </button>
+        </div>
+    <div id="header">
+        <h1>Choose your meditation</h1>
+    </div>
+
+  
+    <div id="allButtons">
+    <div class="fire">
+      <!-- <button class="btn"><i class="fa-solid fa-fire" id="fire"></i><a href="fireplace/fireplace.html">Fire</a></button> -->
+      <!-- <a href="fireplace/fireplace.html">Fire</a> -->
+      <a href="fireplace/fireplace.html"><button class="btn"><i class="fa-solid fa-fire" id="fire"></i>FIRE</button></a>
+
+    </div>
+    <div class="water">
+
+      <!-- <button class="btn"><i class="fa-solid fa-water" id="water"></i><a href="tibetan/tibetan.html">Ocean</a></button> -->
+      <a href="tibetan/tibetan.html"><button class="btn"><i class="fa-solid fa-water" id="water"></i>OCEAN</button></a>
+
+    </div>
+   <div class="cloud">
+
+      <!-- <button class="btn"><i class="fa-solid fa-cloud-rain" id="cloud"></i><a href="rain/rain.html">rain</a></button> -->
+      <a href="rain/rain.html"><button class="btn"><i class="fa-solid fa-cloud-rain" id="cloud"></i>RAIN</button></a>
+      <!-- <button class="btn"><i class="fa-solid fa-cloud-rain" id="cloud"></i></button> -->
+    </div>
+    </div>
+   
+
+    <video autoplay="autoplay" loop="loop" muted defaultmuted playsinline id="myVideo"><source src="215484_small.mp4" type="video/mp4"></video>
+    <audio id="player" autoplay loop>
+        <source src="dripping-water-nature-sounds-8050.mp3" type="audio/mp3">
+    </audio>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

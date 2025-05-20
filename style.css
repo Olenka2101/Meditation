@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing:border-box;
+}
+#header{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#allButtons{
+    display: flex;
+    justify-content: space-around;
+}
+
+#fire, #water, #cloud{
+    color: #fff;
+    font-size: 40px;
+    padding: 10px;
+}
+
+
+
+
+#onOff{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#playMusic, #stopMusic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-family: "Dosis", sans-serif;
+    font-weight: 200;
+    font-size:1em;
+    color:#fff;
+    border: none;
+    margin: 5px;
+    padding: 15px;
+   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
+	background-color: rgba(255, 255, 255, .15);
+	backdrop-filter: blur(5px);
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+#playMusic:hover , #stopMusic:hover{
+    transform: scale(1.1);
+  background:  rgb(156, 212, 237);
+}
+
+
+#myVideo{
+position: fixed;
+   top: 0;
+   right: 0;
+   z-index: -1;
+}
+#myVideo, video{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h1{
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 45px;
+   width: 15em;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   color: #fff;
+   border-radius: 30px;
+   text-transform: uppercase;
+   backdrop-filter: blur(5px);
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+a .btn{
+    color: #fff;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 35px;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+
+    text-transform: uppercase;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);	
+	background-color: rgba(255, 255, 255, .15);
+	backdrop-filter: blur(5px);
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+    opacity: 0.8;
+    transition: all 1s ease-in-out;
+}
+
+.btn:hover{
+background:  rgb(156, 212, 237);
+transform: scale(1.1);
+}
+
+
+  @media all and (max-width:800px) {
+    h1{
+        margin-right: 30px;
+        width: 400px;
+        font-size: 20px;
+        /* padding: 15px; */
+    }
+    #allButtons{
+       margin-right: 20px;
+    }
+    .btn{
+        width: 150px;
+        height: 150px;
+        font-size: 20px;
+        padding: 0.7em;
+    }
+    #onOff{
+        margin-right: 25px;
+    }
+    #playMusic, #stopMusic{
+font-size: 0.6em;
+padding: 3px;
+    }
+} 
+
+@media all and (max-width:450px){
+    h1{
+        
+        width: 15em;
+        padding: 10px;
+    }
+  
+    .btn{
+        width: 100px;
+        height: 100px;
+        font-size: 15px;
+        padding: 0.4em;
+    }
+
+}
+
