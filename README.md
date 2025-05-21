@@ -41,4 +41,4 @@ CSS
 
 ## 📝 Usage
 
-The perfect app to help you unwind and relax, featuring nature’s most soothing sounds — including a crackling fireplace, gentle ocean waves, and calming raindrops.
+The perfect app to help you unwind and relax, featuring nature’s most soothing sounds, including a crackling fireplace, gentle ocean waves, and calming raindrops.
