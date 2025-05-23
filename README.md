@@ -35,9 +35,9 @@ Clicking the home icon will navigate you back to the landing page, where you can
 
 # 💻 Technologies-used
 
-Javascript
-HTML
-CSS
+⭐ Javascript
+⭐ HTML
+⭐ CSS
 
 ## 📝 Usage
 
