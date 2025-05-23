@@ -13,7 +13,7 @@ A responsive web app that helps users unwind and relax.
 
 ![Screenshot 2025-05-19 211258](https://github.com/user-attachments/assets/511a0b01-53b2-4f96-bcc2-67653ab6570c)
 The landing page features an interactive interface where users can select their preferred meditation soundscape from three options:
-Fireplace, Ocean Waves, and Rainfall.
+Fire, Ocean, and Rain.
 Each option is represented by a distinct icon, allowing users to easily choose their desired ambiance with a single click.
 Additionally, the page includes a control to play or pause the background sound, providing a customizable and immersive meditation experience.
 
